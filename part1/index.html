@@ -10,8 +10,9 @@
   <body>
     <h1>Expressions and Interpolation</h1>
     <div ng-controller='MsgController'>
-      Message is: <br>
-
+      <!-- Message is:  -->
+      {{name}} has a message for you: <br>
+      {{sayMessage()}} <!--Instead of releasing an error message, putting random text into this area simply leaves it blank. -->
     </div>
   </body>
 </html>
