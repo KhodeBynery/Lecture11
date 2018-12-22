@@ -12,6 +12,12 @@
     <div ng-controller='MsgController'>
       {{name}} has a message for you: <br>
       {{sayMessage()}}
+      <div>
+        <button ng-click="feedYaakov()">Feed Yaakov</button>
+        <br>
+        <img ng-src="images/yaakov_{{stateOfBeing}}.png">
+        <!-- Adding the ng- next to the src prevents an error of image non-detection -->
+      </div>
     </div>
   </body>
 </html>
